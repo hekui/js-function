@@ -1,6 +1,10 @@
 # 图片本地预览
 
-demo: [在线预览](http://runjs.cn/detail/h3ctof1l)
+使用了HTML5的 `FileReader()` 方法，[详细介绍](https://developer.mozilla.org/zh-CN/docs/Web/API/FileReader)
+> 注: IE10以下的版本不支持FileReader()构造函数.不过可以利用滤镜来兼容旧版本的IE:[兼容IE的图片本地预览](https://mdn.mozillademos.org/files/3699/crossbrowser_image_preview.html).
+
+
+demo实例，[在线预览](http://runjs.cn/detail/h3ctof1l)
 
 ```html
 <input type="file" id="File">
